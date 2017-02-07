@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sandwich Maker</title>
+</head>
+<body>
+<h1>Sandwich Maker</h1>
+<h3>Make your own sandwich:</h3>
+<!---BREAD SELECTION RADIO BUTTONS-->
+  <section id="bread">Bread:
+  <br>
+    <input type="radio" id="white" name="box">
+      <label for="white=bread">White</label> 
+
+       <input type="radio" id="wheat" name="box">
+        <label for="wheat-bread">Wheat</label> 
+
+       <input type="radio" id="none" name="box">
+        <label for="no-bread">No Bread</label>  
+  </section> 
+<!-- MEAT SELECTION CHECKBOX-->
+  <section id="meat">Meat:
+    <br> 
+      <input type="checkbox" id="turkey" name="box" value="">
+        <label for="turkey">Turkey</label> 
+
+      <input type="checkbox" id="ham" name="box" value="">
+        <label for="ham">Ham</label> 
+
+      <input type="checkbox" id="none" name="box" value="">
+        <label for="no-meat">No Meat</label>
+  </section> 
+<!-- CHEESE SELECTION CHECKBOX -->
+  <section id="cheese">Cheese:
+    <br> 
+      <input type="checkbox" id="chedder" name="box" value="">
+        <label for="chedder">Chedder</label> 
+
+      <input type="checkbox" id="swiss" name="box" value="">
+        <label for="swiss">Swiss</label> 
+
+      <input type="checkbox" id="none" name="box" value="">
+        <label for="no-cheese">No Cheese</label>
+  </section>
+<!-- CONDIMENTS SELECTION CHECKBOX -->
+  <section id="condiments">Condiments:
+    <br> 
+      <input type="checkbox" id="mayo" name="box" value="">
+        <label for="mayo">Mayo</label> 
+
+      <input type="checkbox" id="mustard" name="box" value="">
+        <label for="mustard">Mustard</label> 
+
+      <input type="checkbox" id="none" name="box" value="">
+        <label for="no-condiments">None</label>
+  </section>
+<!-- VEGGIES SELECTION CHECKBOX -->
+  <section id="veggies">Veggies:
+    <br> 
+      <input type="checkbox" id="lettuce" name="box" value="">
+        <label for="lettuce">Lettuce</label> 
+
+      <input type="checkbox" id="tomato" name="box" value="">
+        <label for="tomato">Tomato</label> 
+
+      <input type="checkbox" id="none" name="box" value="">
+        <label for="no-veggies">None</label>
+  </section>
+<!-- OUTPUT FIELD WHERE PRICE OF SANDWICH WILL SHOW -->  
+  <div id="finalSandwich"></div>
+    
+<script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+<script type="text/javascript" src="javascripts/Breads.js"></script>
+<script type="text/javascript" src="javascripts/Meats.js"></script>
+<script type="text/javascript" src="javascripts/Cheeses.js"></script>
+<script type="text/javascript" src="javascripts/Condiments.js"></script>
+<script type="text/javascript" src="javascripts/Veggies.js"></script>
+<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+</body>
+</html>

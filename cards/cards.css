@@ -1,0 +1,9 @@
+.newElement {
+  height: 104px;
+  width: 250px;
+  border: 2px solid lightblue;
+}
+
+.textArea {
+  border: 2px solid lightblue;
+}
